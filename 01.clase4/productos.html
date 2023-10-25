@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    tr,td, th {
+        border: 2px solid black;
+    }
+
+    .rojo{
+        color: red;
+    }
+</style>
+<link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <h1>Soy una lista de productos</h1>
+    <table style="background-color: cornflowerblue;"
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>DNI</th>
+                <th>Provincia</th>
+                <th>Voto</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pepe</td>
+                <td>Perez</td>
+                <td>44555888</td>
+                <td>Misiones</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>Pepe</td>
+                <td>Perez</td>
+                <td>44555888</td>
+                <td>Misiones</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>Silva</td>
+                <td rowspan="2">12444666</td>
+                <td>Corrientes</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Pepe</td>
+                <td>Perez</td>
+                <td>44555888</td>
+                <td>Misiones</td>
+                <td>Si</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Total de votos 2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h1 class="rojo">Soy una lista de productos</h1>
+    <h1 class="verde">Soy una lista de productos</h1>
+    <h1 class="azul">Soy una lista de productos</h1>
+    <h1>Soy una lista de productos</h1>
+</body>
+</html>
